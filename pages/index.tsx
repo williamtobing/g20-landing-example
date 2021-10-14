@@ -11,7 +11,9 @@ const Home: NextPage = () => {
         }}
         className="h-screen relative bg-no-repeat bg-cover bg-center overflow-hidden"
       >
-        <Description />
+        <div className="max-w-screen-xl mx-auto px-4 h-full">
+          <Description />
+        </div>
       </section>
     </>
   );
