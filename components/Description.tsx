@@ -3,7 +3,7 @@ import { ArrowRightIcon } from "@heroicons/react/solid";
 const Description = () => {
   return (
     <>
-      <div className="text-white h-full flex flex-col justify-center w-5/12">
+      <div className="text-white h-full flex flex-col justify-center">
         <p className="tracking-widest font-bold text-xl mb-12">
           P L A C E &nbsp; O F &nbsp; I N T E R E S T
         </p>
