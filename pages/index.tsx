@@ -23,6 +23,11 @@ const Home: NextPage = () => {
           </div>
         </div>
       </section>
+      <div className="absolute bottom-4 flex justify-center w-full">
+        <p className="text-white text-center font-bold">
+          Powered by: XL AXIATA
+        </p>
+      </div>
     </>
   );
 };

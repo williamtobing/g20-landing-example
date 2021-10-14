@@ -20,12 +20,6 @@ const cities: Cities = [
     imgUrl:
       "https://web-busol.s3.ap-southeast-1.amazonaws.com/temp/Content_auto_x2_colored_toned_light_ai.webp",
   },
-  {
-    id: 3,
-    name: "YOGYAKARTA",
-    imgUrl:
-      "https://web-busol.s3.ap-southeast-1.amazonaws.com/temp/EOtDQfa6DmpNyMz43NCdWVvpo9Eg5BIARvdPKdEL.jpg",
-  },
 ];
 
 const Slider = () => {

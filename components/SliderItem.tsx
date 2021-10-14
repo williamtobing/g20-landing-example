@@ -6,14 +6,16 @@ type sliderProps = {
 const SliderItem = ({ name, imgUrl }: sliderProps) => {
   return (
     <>
-      <img
-        src={imgUrl}
-        alt="bali"
-        className="rounded-md w-80 h-96 object-cover mt-8 mr-4"
-      />
-      {/* <div className="absolute bottom-4 left-4 bg-white rounded px-2 py-1">
-        <p className="text-black font-bold">{name}</p>
-      </div> */}
+      <div className="relative mt-8 mr-4">
+        <img
+          src={imgUrl}
+          alt="city_img"
+          className="rounded-md w-96 h-96 object-cover"
+        />
+        <div className="absolute bottom-4 left-4 bg-white rounded px-2 py-1">
+          <p className="text-black font-bold">{name}</p>
+        </div>
+      </div>
     </>
   );
 };
